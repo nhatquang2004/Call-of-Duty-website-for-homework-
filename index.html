@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Call of Duty Tour :)</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/script.js" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+    </head>
+    <body>
+        <!-- header section starts  -->
+
+        <header>
+            <i class="fa-solid fa-bars" id="menu-bar"></i>
+
+            <a href="#" class="logo"><span>C</span>all<span>O</span>f <span>D</span>uty</a>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+                <i class="fa-solid fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input
+                    type="search"
+                    id="search-bar"
+                    placeholder="search here..."
+                    class="search-input"
+                />
+                <label
+                    for="search-bar"
+                    class="fa-solid fa-magnifying-glass"
+                ></label>
+            </form>
+        </header>
+
+        <!-- header section end  -->
+        <!-- login form container -->
+        <div class="login-form-container">
+            <i class="fa-solid fa-xmark" id="form-close"></i>
+
+            <form action="">
+                <h3>login</h3>
+                <input
+                    type="email"
+                    class="box"
+                    placeholder="enter your email"
+                />
+                <input
+                    type="password"
+                    class="box"
+                    placeholder="enter your password"
+                />
+                <input type="submit" value="login now" class="btn" />
+                <input type="checkbox" id="remember" />
+                <label for="remember">remember me</label>
+                <p>forget password? <a href="#">click here</a></p>
+                <p>don't have and account? <a href="#">register now</a></p>
+            </form>
+        </div>
+
+        <!-- home section starts -->
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>the brand new Call of Duty experience</h3>
+                <p>discover the dessert of Al Mazrah and more...</p>
+                <a href="#" class="btn">discover more</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="./assets/img/wz2.mp4"></span>
+                <span class="pic-btn" data-src=".assets/img/cod2.jpg"> </span>
+                <span class="vid-btn" data-src="./assets/img/wz1.mp4"> </span>
+                <span class="vid-btn" data-src="./assets/img/j12.mp4"> </span>
+            </div>
+
+            <div class="video-container">
+                <video
+                    loop
+                    autoplay
+                    muted
+                    src="./assets/img/wz2.mp4"
+                    id="video-slider"
+                ></video>
+            </div>
+        </section>
+
+        <!-- home section end -->
+
+        <!-- book section starts -->
+
+        <section class="book" id="book">
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="./assets/img/cod3.jpg" alt="CPT Price in CODMW3 art" />
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name" />
+                    </div>
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guests" />
+                    </div>
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date" />
+                    </div>
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date" />
+                    </div>
+                    <input type="submit" class="btn" value="book now" />
+                </form>
+            </div>
+        </section>
+
+        <!-- book section ends -->
+
+        <!-- packages section starts -->
+        <section class="packages" id="packages">
+            <h1 class="heading">
+                <span>l</span>
+                <span>o</span>
+                <span>c</span>
+                <span>a</span>
+                <span>t</span>
+                <span>i</span>
+                <span>o</span>
+                <span>n</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="./assets/img/Verdansk.jpg" alt="shit Verdansk" />
+                    <div class="content">
+                        <h3><i class="fa-solid fa-location-dot"></i> Verdansk</h3>
+                        <p>
+                            Verdansk is set of 2019 era with abandoned chemical factory,Gora dam and a Russia vibe
+                        </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">$9000 <span>$12000</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/Vondel.jpg" alt="" />
+                    <div class="content">
+                        <h3><i class="fa-solid fa-location-dot"></i>Vondel</h3>
+                        <p>
+                            The Vondel set of 2022 Call of Duty Modern Warfare 2 with the Netherland style and awesome loot (and more deadly of course lol)
+                        </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">$800 <span>$12000</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/Rebirth.jpg" alt="pacific" />
+                    <div class="content">
+                        <h3><i class="fa-solid fa-location-dot"></i>Rebirth Island</h3>
+                        <p>
+                            Alcatraz island but is tropical style,anyone here want to jump in Cell House?
+                        </p>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="price">$20 <span>$80</span></div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+        </section>
+        <!-- packages section ends -->
+
+        <!-- services section starts  -->
+        <section class="services" id="services">
+            <h1 class="heading">
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h3>affordable loot</h3>
+                    <p>
+                        We guarantee that customers are having a good experience loot,AR,SMG,Sniper,Shotgun with full ammo loaded
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h3>Food (We don't have food)</h3>
+                    <p>
+                       In Call of Duty we have best food and drink to serve here:
+                       -Med Kit
+                       -Ammo Box
+                       -UAV
+                       -Shit Chinese
+                       -Quick Revive (taste like dog piss)
+                       -Juggenaut Jog
+                       -Stamina Up
+                       -Double Beer
+                       These are our best food and drinks We can't wait to let our customers feel!
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <h3>(Not) safety guide</h3>
+                    <p>
+                        eh we don't have any safety guide for customers,only coffin guide haha
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-plane"></i>
+                    <h3>fatest travel by plane</h3>
+                    <p>
+                       We have 10 stars quality of planes,AC-130,C-1 Hercules,Mi-8,we promise that you will arrive in under 1 minute :)
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h3>around the world</h3>
+                    <p>
+                        Our services want to serve the best experience to every players and customers with 5gbit network for the trip!
+                    </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-car-side"></i>
+                    <h3>Vehicles</h3>
+                    <p>
+                        We have tanks,armoured car,truck,helicopers and more
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- services section ends  -->
+
+        <!-- gallery section starts -->
+
+        <section class="gallery" id="gallery">
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="./assets/img/Nuketown Russia.webp" alt="" />
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>
+                            Nuketown Russia in 1984,this is now is abandoned
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/warzonevondel.webp" alt="" />
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>
+                            Vondel in CODMW2 set in Netherland
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/cod.webp" alt="" />
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>
+                            Welcome to Warzone 2.0 2022
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/ghost.jpg" alt="" />
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>
+                            Ghost and Alejandro are in mission in CODMW2
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/r.jpg" alt="" />
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>
+                            Bro play Cold War 2 much lol
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./assets/img/wz.jpg" alt="" />
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>
+                           Hell yeah,they are killing someone :D
+                        </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- gallery section ends -->
+
+        <!-- review section starts -->
+
+        <section class="review" id="review">
+            <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+            </h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="./assets/img/OIP.jpg" alt="" />
+                            <h3>Ghost</h3>
+                            <p>
+                                That'll do
+                            </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="./assets/img/pricememe.png" alt="" />
+                            <h3>Price</h3>
+                            <p>
+                              Bravo Six,going dark
+                            </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="./assets/img/kate.jpg" alt="" />
+                            <h3>Kate</h3>
+                            <p>
+                              My wife hates me smoke lol
+                            </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="./assets/img/alejandro.jpg" alt="" />
+                            <h3>Alejandro</h3>
+                            <p>
+                                Los Vagueros
+                            </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="./assets/img/rudy.png" alt="" />
+                            <h3>Rodolfo</h3>
+                            <p>
+                                Capitan
+                            </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="./assets/img/soap.jpg" alt="" />
+                            <h3>Soap</h3>
+                            <p>
+                                Let's get our win, yeah LT?
+                            </p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- review section ends -->
+
+        <!-- contact section starts -->
+
+        <section class="contact" id="contact">
+            <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+            </h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="./assets/img/R.jpg" alt="" />
+                </div>
+
+                <form action=" ">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name" />
+                        <input type="email" placeholder="email" />
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="number" />
+                        <input type="text" placeholder="subject" />
+                    </div>
+                    <textarea
+                        placeholder="message"
+                        name=""
+                        id=""
+                        cols="30"
+                        rows="10"
+                        style="width: 100%"
+                    ></textarea>
+                    <input type="submit" class="btn" value="send message" />
+                </form>
+            </div>
+        </section>
+
+        <!-- contact section ends -->
+
+        <!-- brand section -->
+        <section class="brand-container">
+            <div class="swiper brand-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/activision-svgrepo-com.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/codlogo.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/treyarch-logo.svg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/CDL_Logo.svg.png" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/Sledgehammer_games_logo.svg.png" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/Infinity_Ward.svg.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section  -->
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>
+                        We are Call of Duty tour,established in 1984 (during Cold War),we want you have a good and the best experience in our services!
+                    </p>
+                </div>
+                <div class="box">
+                    <h3>branch locations</h3>
+                    <a href="#">Vondel</a>
+                    <a href="#">Verdansk(and Verdansk 1984)</a>
+                    <a href="#">Al Mazrah</a>
+                    <a href="#">Vondel</a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">book </a>
+                    <a href="#">packages</a>
+                    <a href="#">services</a>
+                    <a href="#">gallery</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="https://www.facebook.com/PavelAleksandrovichKomissarov">facebook</a>
+                    <a href="#">instagram </a>
+                    <a href="#">twitter</a>
+                    
+                </div>
+            </div>
+
+            <h1 class="credit">
+                created by <span>Le Nhat Quang 2024</span> |Does't not relevant to Activision's original Call of Duty website, all rights reserved by Activision (this website created for education purposed only)|
+            </h1>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- custom js file link  -->
+        <script src="./assets/css/script.js"></script>
+    </body>
+</html>
